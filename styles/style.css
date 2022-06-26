@@ -51,7 +51,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
 	background-color: rgba(255, 255, 255, 0.15);
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 header .container img {
@@ -125,6 +125,10 @@ main .container-main img {
 
 /* Cards */
 
+a {
+	text-decoration: none;
+}
+
 .cards {
 	width: 90%;
 	max-width: 980px;
@@ -147,7 +151,7 @@ main .container-main img {
 	cursor: pointer;
 	box-shadow: 5px 5px 15px -4px black;
 	transition: all 0.3s ease 0s;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .card:hover {
@@ -163,7 +167,8 @@ main .container-main img {
 	padding-top: 56.25%;
 	overflow: hidden;
 	position: relative;
-	border-radius: 5px 5px 0 0;
+	border-radius: 10px 10px 0 0;
+	height: 225px;
 }
 
 .image img {

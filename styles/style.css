@@ -218,6 +218,10 @@ textarea {
 	display: block;
 }
 
+select {
+	background-color: white;
+}
+
 textarea {
 	height: 215px;
 	resize: none;

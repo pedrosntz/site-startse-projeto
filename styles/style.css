@@ -193,6 +193,14 @@ section.container-contact {
 	padding-bottom: 80px;
 }
 
+address h3:first-child {
+	padding-top: 25px;
+}
+
+.container-contact form input {
+	display: block;
+}
+
 select,
 textarea {
 	width: 380px;
@@ -205,8 +213,10 @@ textarea {
 	display: block;
 }
 
-.container-contact form input {
-	display: block;
+textarea {
+	height: 215px;
+	resize: none;
+	padding: 8px 20px;
 }
 
 select:invalid {
@@ -216,16 +226,6 @@ select:invalid {
 option,
 h3 span {
 	color: black;
-}
-
-textarea {
-	height: 215px;
-	resize: none;
-	padding: 8px 15px;
-}
-
-address h3:first-child {
-	padding-top: 25px;
 }
 
 /* Footer */

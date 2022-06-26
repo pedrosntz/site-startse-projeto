@@ -94,7 +94,7 @@ h3 {
 	margin-top: 20px;
 }
 
-.container-main form input {
+form input {
 	width: 380px;
 	padding-left: 15px;
 	font-size: 18px;
@@ -107,10 +107,16 @@ h3 {
 form [type="submit"] {
 	background-color: #0080ed;
 	color: white;
+	width: 150px;
+	padding-left: 0px;
+	font-size: 16px;
+	height: 40px;
 }
 
 form [type="submit"]:hover {
 	cursor: pointer;
+	background-color: rgba(0, 128, 237, 0.75);
+	transform: translateY(-px);
 }
 
 main .container-main img {
@@ -187,7 +193,6 @@ section.container-contact {
 	padding-bottom: 80px;
 }
 
-.container-contact form input,
 select,
 textarea {
 	width: 380px;
@@ -197,6 +202,10 @@ textarea {
 	margin-bottom: 13px;
 	border-radius: 20px;
 	border: 2px solid #0080ed;
+	display: block;
+}
+
+.container-contact form input {
 	display: block;
 }
 

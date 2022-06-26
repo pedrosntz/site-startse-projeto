@@ -51,9 +51,8 @@
 		width: 100vw;
 		justify-content: center;
 		align-items: center;
-		left: 100%;
-		transform: translateX(100vw);
-		transition: 0.5s ease transform;
+		left: 0;
+		transform: scaleX(0);
 	}
 
 	.menu > li {
@@ -114,8 +113,9 @@
 	}
 
 	#checkbox-menu:checked ~ nav .menu {
-		transform: translateX(-100vw);
-		transition: 0.5s ease transform;
+		transform: scaleX(1);
+		transform-origin: right;
+		transition: transform 0.5s ease;
 	}
 
 	#checkbox-menu:checked + label span:nth-child(1) {

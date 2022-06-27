@@ -31,9 +31,7 @@
 	section.container-contact {
 		display: block;
 	}
-}
 
-@media (max-width: 1000px) {
 	.container {
 		padding: 0 20px;
 	}
